@@ -24,9 +24,7 @@ class HomeContainer extends Component{
           <Col span={2} offset={8+5}>
             <button className="uk-button uk-button-default" onClick={this.handleLogin}>Login</button>
           </Col>
-          <Col span={3} >
-            <button className="uk-button uk-button-default">Sign up</button>
-          </Col>
+          
         </Row>
       </Header>
       <Content style={{ padding: '0 50px', marginTop: 64, background:'#fff' }}>
