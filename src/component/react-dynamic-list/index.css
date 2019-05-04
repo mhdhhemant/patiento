@@ -1,0 +1,57 @@
+body {
+  line-height: 1;
+}
+.dynamic-delete-button {
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+  font-size: 24px;
+  color: #999;
+  transition: all 0.3s;
+}
+.dynamic-delete-button:hover {
+  color: #777;
+}
+.dynamic-delete-button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+#medical-profile .ant-form-item-control {
+  line-height: 14px !important;
+}
+#medical-profile .ant-form-item-children::before {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  top: auto;
+  left: auto;
+  font-weight: 400;
+  margin-left: -0.4rem;
+  margin-top: 6px;
+  content: "-";
+  opacity: 1;
+  color: inherit;
+  vertical-align: middle;
+  box-sizing: inherit;
+}
+.add-content .ant-form-item-children::before {
+  content: "+" !important;
+  color: #97a2a3 !important;
+}
+.add-new-content {
+  font-style: italic;
+  color: #97a2a3 !important;
+  margin-left: 0.8rem;
+}
+.personal-history-content {
+  padding-top: 0.8em;
+  padding-right: 2em;
+  padding-left: 0.25em;
+}
+.add-content {
+  margin-top: 6px;
+  margin-bottom: 10px;
+}

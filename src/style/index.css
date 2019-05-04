@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Niramit', sans-serif;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+.menu-icon {
+  font-size: 1.7em !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+.main-logo {
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+/*
+ background: rgba(255,255,255,.2);
+*/
+.menu-logo {
+  height: 32px;
+  background: rgba(255,255,255,.2);
+  margin: 16px;
+}
+audio, canvas, iframe, img, svg, video {
+  vertical-align: baseline !important;
+}
+.demo-infinite-container {
+/*border: 1px solid #e8e8e8;
+   padding: 8px 24px;
+  border-radius: 4px;*/
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.demo-loading-container {
+  position: absolute;
+  width: 100%;
+  height:'100%';
+  text-align: center;
+}
+.ant-layout-sider-children  .ant-card-body {
+  height: 100%;
+}
+.ant-tabs-content, .ant-tabs-content-animated {
+  height: 100%;
+}
+#navigate .ant-card-body{
+  padding: 0px !important ;
+}
+.patient-info-header {
+    display: inline-flex;
+    margin: 0;
+    padding-top: 0;
+    width: 100%;
+}
+.section-heading {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #414146 !important;
+}
+.patient-info-data {
+    color: #797877;
+    margin-top: .5em;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: #565050;
+    margin-top: -22px;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+.avatar-uploader > .ant-upload {
+  width: 128px;
+  height: 128px;
+}
+/*
+ Patient Registration form label style
+*/
+.ant-form-item-required label {
+  font-weight: bold;
+}
+.ant-form-item label {
+  font-weight: bold;
+}
+.ant-modal-title {
+  font-weight: bold !important;
+  font-size: large !important;
+}
+.ant-model-subtitle {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+}
+.medical-profile-container  .ant-list-item {
+    border-bottom: 0 !important;
+}
+.ant-form-item {
+  margin-bottom: 4px !important;
+}
+.ant-timeline-item-content {
+  margin: 0 0 0 35px !important;
+}
+.ant-timeline-item-content {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    background-color: #fff !important;
+    border-radius: 2px;
+    position: relative;
+}
+.ant-timeline-item {
+  padding-bottom: 60px;
+}
+.patient-list .ant-list-item-meta-title {
+    color: rgba(0, 0, 0, 0.61);
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bolder;
+}
+.patient-list  .ant-list-item {
+    padding: 10px 8px !important;
+    border-bottom: 1px solid #e8e8e8 !important;
+}
+.patient-list .ant-list-item-meta-description {
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.patient-list  .ant-list-item:hover{
+   background-color: whitesmoke;
+   box-shadow: 0 0px 3px 0 rgba(0,0,0,.1);
+}
+a, u {
+    text-decoration: none;
+}
+.paitent-list-item-selected {
+  background-color: #ece9e9 !important;
+}
+.christmas::before {
+  background:none !important
+}
+.nautral_timeline .ant-timeline-item-content {
+  box-shadow: none !important;
+  background-color: #fff !important;
+}
+.icon-flipped {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+.user-profile .ant-card-meta-title {
+    margin-bottom: 0px !important;
+}
+#patient_id .ant-form-item-required:before {
+  display:none !important;
+  margin-left:4px;
+}
+#patient_id label {
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+#patient_id {
+  display: flex
+}
+#patient_id .ant-form-item-label {
+  padding-top: 5px;
+  margin-left: 7px;
+}
+.notEdit {
+  border: none !important;
+  background: #fff !important;
+  color: rgba(0, 0, 0, 0.7) !important;
+  cursor: text !important;
+  padding-left: 0px !important;
+  padding-bottom: 2px !important;
+}
+#patient_id .ant-input-group-addon {
+  border:none !important;
+	padding: 0 !important;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1;
+	color: rgba(0, 0, 0, 0.65);
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #d9d9d9;
+	border-radius: 4px;
+	position: relative;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+.visit-edit {
+  border-left: 5px solid #2189e4cc;
+  border-radius: 3px;
+}
+.ant-table-footer {
+  background: #fff !important;
+}
+#visit-table {
+  border: none !important;
+}
+#visit-table .ant-table-title {
+  border: none !important;
+}
+.uk-text-small {
+    font-size: .775rem !important;
+    line-height: 1.5;
+}
+.border-top{
+  border-top: 1px solid #e8e8e8;
+}
+.uk-padding-very-small {
+  padding:10px;
+}
+.ant-table-placeholder {
+  padding:0 !important
+}

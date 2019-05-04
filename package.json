@@ -3,13 +3,37 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.10.7",
+    "apollo-boost": "^0.1.22",
+    "apollo-cache-inmemory": "^1.3.12",
+    "apollo-client": "^2.4.8",
+    "apollo-link": "^1.2.6",
+    "apollo-link-context": "^1.0.12",
+    "apollo-link-error": "^1.1.5",
+    "apollo-link-http": "^1.5.9",
+    "apollo-link-ws": "^1.0.12",
+    "auth0-js": "^9.8.2",
+    "graphql": "^14.0.2",
+    "moment": "^2.23.0",
     "react": "^16.6.3",
+    "react-apollo": "^2.3.3",
+    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-infinite-scroller": "^1.2.2",
+    "react-responsive": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.3",
+    "react-spinners": "^0.4.8",
+    "react-virtualized": "^9.21.0",
+    "subscriptions-transport-ws": "^0.9.15",
+    "uikit": "^3.0.0-rc.22",
+    "velocity-animate": "^1.5.2",
+    "velocity-react": "^1.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "up": "react-scripts build && firebase deploy",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -21,5 +45,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "homepage": "/",
+  "devDependencies": {
+    "classnames": "^2.2.6"
+  }
 }
